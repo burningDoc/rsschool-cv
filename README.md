@@ -1,1 +1,1 @@
-https://github.com/burningDoc/rsschool-cv/blob/gh-pages/cv.md
+https://github.com/burningDoc/rsschool-cv/
