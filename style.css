@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; 
+  }
+body {
+    width: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  div > article {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  } 
+  div > aside {
+    background: black;
+
+  }
+
+  header, footer, article, aside {
+    padding: 1em;
+  }
+
+header {
+    text-align:center
+}
+
+code {
+    font-size: 12px;
+}
+
+a {
+    color: darkslategray
+}
