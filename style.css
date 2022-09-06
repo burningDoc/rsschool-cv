@@ -13,49 +13,21 @@ body {
     font-size: 14px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-#main {
+div {
     display: flex;
     justify-content: flex-start;
-    /* align-items: flex-start; */
-    /* min-height: calc(100vh - 40vh); */
   }
-  #main > article {
-    /* width: 80%; */
-    /* flex: 2 1 300px; */
+  div > article {
     word-wrap: break-word;
     overflow-wrap: break-word;
   } 
-  #main > aside {
-    /* width: 20%; */
-    /* flex: 1 2 100px; */
+  div > aside {
     background: black;
 
-  }
-  #inform {
-    padding-left: 15px;
-    padding-right: 10px;
-    /* margin: 5px; */
-    border: 1px solid yellow;
   }
 
   header, footer, article, aside {
     padding: 1em;
-  }
-  #foto{
-    border: 1px solid yellow;
-    /* object-fit: cover; */
-    /* margin: 0; */
-    /* padding: 0; */
-  }
-
-  #yellow {
-    position: relative;
-    background: yellow;
-    color: black;
-    text-align: left;
-    margin: 1px;
-    box-shadow: 5px 5px white;
-    padding-left: 5px;
   }
 
 header {
